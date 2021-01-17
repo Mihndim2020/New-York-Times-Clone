@@ -32,6 +32,7 @@ header .menu-img,
 .search-icon-image {
   width: 20px;
   height: 20px;
+  cursor: pointer;
 }
 
 header button {
@@ -40,4 +41,5 @@ header button {
   border-radius: 5px;
   font-weight: bolder;
   padding: 5px 10px;
+  cursor: pointer;
 }
