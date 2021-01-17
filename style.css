@@ -1,3 +1,43 @@
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+header {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 2px 2px 1px #d9d9d9;
+}
+header .left-side,
+.right-side {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  margin: 0 20px;
+}
+header h3 {
+  font-size: 14px;
+  color: black;
+}
+header a{
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+header .menu-img,
+.search-icon-image {
+  width: 20px;
+  height: 20px;
+}
+
+header button {
+  color: white;
+  background-color: #326891;
+  border-radius: 5px;
+  font-weight: bolder;
+  padding: 5px 10px;
+}
