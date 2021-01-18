@@ -8,6 +8,7 @@ header {
   display: flex;
   justify-content: space-between;
   box-shadow: 1px 2px 2px 1px #d9d9d9;
+  z-index: 20;
 }
 header .left-side,
 .right-side {
@@ -99,7 +100,7 @@ main .login-and-comments {
   margin: 10px 0 0 20px;
 }
 .hero-area{
-  margin-top: 20px;
+  margin: 20px auto 150px auto;
 }
 .hero-area .hero-img{
   width: 80vw;
@@ -129,4 +130,72 @@ main .login-and-comments {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: smaller;
 }
+.cambridge {
+  width: 60vh;
+  margin: 0 auto;
+  text-align: left;
+}
+.author {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+  color: black;
+}
+.free-articles {
+  width: 40%;
+  text-align: center;
+  margin: 10px auto;
+}
+.free {
+  margin: 0;
+}
+.spiral {
+  width: 100%;
+  height: 300px;
+}
 
+
+/* to be corrected  */
+
+.article-hr {
+  border: 1px solid #d9d9d9;
+  margin: 0 auto;
+  width: 20%;
+}
+p {
+  margin: 15px 0;
+}
+
+.free-article-anchor {
+  text-decoration: none;
+  color: #326891;
+}
+.p-anchor {
+  color: #326891;
+}
+
+.p-anchor:hover {
+  text-decoration: none;
+}
+.editors-picks {
+  width: 300px;
+  position: absolute;
+  right: 10%;
+  top: 70%;
+}
+
+.editors-picks img {
+  width: 100%;
+}
+
+.cambridge-section {
+  position: relative;
+  margin: 0 5%;
+}
+
+.editors-picks figure {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+  margin-bottom: 15px;
+}
