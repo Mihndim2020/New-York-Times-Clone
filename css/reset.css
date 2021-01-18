@@ -102,9 +102,9 @@ header,
 hgroup,
 menu,
 nav,
-section {
+/* section {
   display: block;
-}
+} */
 body {
   line-height: 1;
 }
