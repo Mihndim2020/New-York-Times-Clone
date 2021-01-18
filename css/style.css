@@ -111,3 +111,22 @@ main .login-and-comments {
   height: auto;
   cursor: pointer;
 }
+/* .hero-area figcaption{
+  width: 60%;
+} */
+
+.hero-area figcaption{
+  width: 75%;
+  font-family: nyt-imperial, Georgia, 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #666;
+  text-align: left;
+  margin: 10px 20px 0;
+}
+.hero-area .rick{
+  color: #888;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: smaller;
+}
+
