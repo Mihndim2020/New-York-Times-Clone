@@ -17,15 +17,19 @@ header .left-side,
   gap: 20px;
   margin: 0 20px;
 }
+ header .logo{
+  margin-top: 6px;
+ }
+
 header h3 {
   font-size: 14px;
   color: black;
 }
-header a{
-    text-decoration: none;
+header a {
+  text-decoration: none;
 }
-header a:hover{
-    text-decoration: underline;
+header a:hover {
+  text-decoration: underline;
 }
 
 header .menu-img,
@@ -41,5 +45,69 @@ header button {
   border-radius: 5px;
   font-weight: bolder;
   padding: 5px 10px;
+  cursor: pointer;
+}
+.main-content {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+.main-content .title-area {
+  width: 40%;
+  margin: 0 auto;
+}
+.title-area h1 {
+  font-size: 2.5rem;
+  font-style: italic;
+}
+.title-area hr {
+  border: 0.3px solid #ebebeb;
+}
+main ul li {
+  list-style: none;
+  color: black;
+  font-size: 1.1rem;
+  background-color: #ebebeb;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+main ul li a {
+  text-decoration: none;
+  color: black;
+}
+main ul li a:hover {
+  background-color: #d9d9d9;
+}
+main .social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+main ul {
+  display: inline-block;
+  display: flex;
+  text-align: left;
+}
+main .login-and-comments {
+  display: flex;
+  gap: 20px;
+  margin: 10px 0 0 20px;
+}
+.hero-area{
+  margin-top: 20px;
+}
+.hero-area .hero-img{
+  width: 80vw;
+  height: 60vh;
+  margin: 0 auto;
+}
+.hero-area img{
+  width: 100%;
+  height: auto;
   cursor: pointer;
 }
