@@ -1,6 +1,7 @@
 * {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: nyt-imperial, Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
+  line-height: 1.5;
 }
 header {
   width: 100%;
@@ -43,10 +44,11 @@ header .menu-img,
 
 header button {
   color: white;
+  font-size: .8rem;
   background-color: #326891;
   border-radius: 5px;
   font-weight: bolder;
-  padding: 5px 10px;
+  padding: 5px 5px;
   cursor: pointer;
   border: none;
 }
@@ -114,9 +116,6 @@ header button {
   height: auto;
   cursor: pointer;
 }
-/* .hero-area figcaption{
-  width: 60%;
-} */
 
 .hero-area figcaption {
   width: 75%;
@@ -364,6 +363,7 @@ iframe {
 }
 .footer-area {
   padding: 0 5%;
+  font-size: .9rem;
 }
 
 .footer-area .content {
