@@ -48,6 +48,7 @@ header button {
   font-weight: bolder;
   padding: 5px 10px;
   cursor: pointer;
+  border: none;
 }
 .main-content {
   position: absolute;
@@ -66,7 +67,7 @@ header button {
 .title-area hr {
   border: 0.3px solid #ebebeb;
 }
-main ul li {
+.social-media-icons ul li {
   list-style: none;
   color: black;
   font-size: 1.1rem;
@@ -78,24 +79,24 @@ main ul li {
   height: 20px;
   text-align: center;
 }
-main ul li a {
+.social-media-icons ul li a {
   text-decoration: none;
   color: black;
 }
-main ul li a:hover {
+.social-media-icons ul li a:hover {
   background-color: #d9d9d9;
 }
-main .social-media-icons {
+.social-media-icons {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-main ul {
+.social-media-icons ul {
   display: inline-block;
   display: flex;
   text-align: left;
 }
-main .login-and-comments {
+.social-media-icons .login-and-comments {
   display: flex;
   gap: 20px;
   margin: 10px 0 0 20px;
@@ -350,11 +351,12 @@ iframe {
   cursor: pointer;
 }
 
-.most-popular li {
-  background-color: red;
-  font-size: large;
-  border-top: 1px solid #d9d9d9;
-  padding: 10px 0;
+
+.most-popular ul li {
+  
+  font-size: x-large;
+  border-top: 1px solid #acaaaa;
+  padding: 15px 0;
 }
 
 .tick-line {
