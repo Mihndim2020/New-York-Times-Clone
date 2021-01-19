@@ -149,10 +149,7 @@ main .login-and-comments {
 .free {
   margin: 0;
 }
-.spiral {
-  width: 100%;
-  height: 300px;
-}
+
 
 /* to be corrected  */
 
@@ -297,4 +294,8 @@ iframe {
 .youtube-video .smaller,
 .smaller {
   font-size: smaller;
+}
+.spiral {
+  width: 100%;
+  height: 300px;
 }
