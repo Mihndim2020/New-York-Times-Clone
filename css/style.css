@@ -18,9 +18,9 @@ header .left-side,
   gap: 20px;
   margin: 0 20px;
 }
- header .logo{
+header .logo {
   margin-top: 6px;
- }
+}
 
 header h3 {
   font-size: 14px;
@@ -99,15 +99,15 @@ main .login-and-comments {
   gap: 20px;
   margin: 10px 0 0 20px;
 }
-.hero-area{
+.hero-area {
   margin: 20px auto 150px auto;
 }
-.hero-area .hero-img{
+.hero-area .hero-img {
   width: 80vw;
   height: 60vh;
   margin: 0 auto;
 }
-.hero-area img{
+.hero-area img {
   width: 100%;
   height: auto;
   cursor: pointer;
@@ -116,18 +116,18 @@ main .login-and-comments {
   width: 60%;
 } */
 
-.hero-area figcaption{
+.hero-area figcaption {
   width: 75%;
-  font-family: nyt-imperial, Georgia, 'Times New Roman', Times, serif;
+  font-family: nyt-imperial, Georgia, "Times New Roman", Times, serif;
   font-size: 1rem;
   line-height: 1.2rem;
   color: #666;
   text-align: left;
   margin: 10px 20px 0;
 }
-.hero-area .rick{
+.hero-area .rick {
   color: #888;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: smaller;
 }
 .cambridge {
@@ -154,7 +154,6 @@ main .login-and-comments {
   height: 300px;
 }
 
-
 /* to be corrected  */
 
 .article-hr {
@@ -180,7 +179,7 @@ p {
 .editors-picks {
   width: 300px;
   position: absolute;
-  right: 10%;
+  right: 5%;
   top: 70%;
 }
 
