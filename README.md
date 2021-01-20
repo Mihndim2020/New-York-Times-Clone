@@ -12,17 +12,6 @@ Additional description about the project and its features.
 [Live Demo Link](https://mihndim2020.github.io/New-York-Times-Clone/.)
 
 
-## :handshake: Contributing
-Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](issues/).
-## Show your support
-Give a :star:? if you like this project!
-## Acknowledgments
-- My coding partner
-- Stand up team
-- Mentors
-
-
 # screen shot here
 ![projectScreenshot1](images/screenshot1.png)
 ![projectScreenshot2](images/screenshot2.png)
