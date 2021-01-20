@@ -93,7 +93,18 @@ header button {
   text-align: center;
 }
 
+.most-popular ul li {
+  font-size: x-large;
+  border-top: 1px solid #acaaaa;
+  padding: 15px 0;
+}
+
 .social-media-icons ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.most-popular ul li a {
   text-decoration: none;
   color: black;
 }
@@ -317,17 +328,6 @@ iframe {
   background-color: #326891;
   color: white;
   font-weight: 650;
-}
-
-.most-popular ul li {
-  font-size: x-large;
-  border-top: 1px solid #acaaaa;
-  padding: 15px 0;
-}
-
-.most-popular ul li a {
-  text-decoration: none;
-  color: black;
 }
 
 .most-popular ul li a:hover {
