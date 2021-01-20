@@ -11,8 +11,7 @@ Additional description about the project and its features.
 ## Live Demo
 [Live Demo Link](https://mihndim2020.github.io/New-York-Times-Clone/.)
 
-
-
+ main
 # screen shot here
 ![projectScreenshot1](images/screenshot1.png)
 ![projectScreenshot2](images/screenshot2.png)
@@ -62,3 +61,4 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+main
