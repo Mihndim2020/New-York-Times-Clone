@@ -324,6 +324,13 @@ iframe {
   border-top: 1px solid #acaaaa;
   padding: 15px 0;
 }
+.most-popular ul li a{
+  text-decoration: none;
+  color:black;
+}
+.most-popular ul li a:hover{
+  color: #d9d9d9;
+}
 
 .footer-area ul li {
   list-style: none;
@@ -373,6 +380,7 @@ iframe {
   width: 100%;
   cursor: pointer;
 }
+
 
 .tick-line {
   border: 1px solid black;
