@@ -3,6 +3,7 @@
   font-size: 18px;
   line-height: 1.5;
 }
+
 header {
   width: 100%;
   height: 40px;
@@ -12,6 +13,7 @@ header {
   box-shadow: 1px 2px 2px 1px #d9d9d9;
   z-index: 20;
 }
+
 header .left-side,
 .right-side {
   display: flex;
@@ -20,6 +22,7 @@ header .left-side,
   gap: 20px;
   margin: 0 20px;
 }
+
 header .logo {
   margin-top: 6px;
 }
@@ -28,9 +31,11 @@ header h3 {
   font-size: 14px;
   color: black;
 }
+
 header a {
   text-decoration: none;
 }
+
 header a:hover {
   text-decoration: underline;
 }
@@ -44,7 +49,7 @@ header .menu-img,
 
 header button {
   color: white;
-  font-size: .8rem;
+  font-size: 0.8rem;
   background-color: #326891;
   border-radius: 5px;
   font-weight: bolder;
@@ -52,23 +57,28 @@ header button {
   cursor: pointer;
   border: none;
 }
+
 .main-content {
   position: absolute;
   top: 50px;
   width: 100%;
   margin: 0 auto;
 }
+
 .main-content .title-area {
   width: 40%;
   margin: 0 auto;
 }
+
 .title-area h1 {
   font-size: 2.5rem;
   font-style: italic;
 }
+
 .title-area hr {
   border: 0.3px solid #ebebeb;
 }
+
 .social-media-icons ul li {
   list-style: none;
   color: black;
@@ -81,36 +91,44 @@ header button {
   height: 20px;
   text-align: center;
 }
+
 .social-media-icons ul li a {
   text-decoration: none;
   color: black;
 }
+
 .social-media-icons ul li a:hover {
   background-color: #d9d9d9;
 }
+
 .social-media-icons {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
+
 .social-media-icons ul {
   display: inline-block;
   display: flex;
   text-align: left;
 }
+
 .social-media-icons .login-and-comments {
   display: flex;
   gap: 20px;
   margin: 10px 0 0 20px;
 }
+
 .hero-area {
-  margin: 20px auto 150px auto;
+  margin: 20px auto 300px auto;
 }
+
 .hero-area .hero-img {
   width: 80vw;
   height: 60vh;
   margin: 0 auto;
 }
+
 .hero-area img {
   width: 100%;
   height: auto;
@@ -126,27 +144,32 @@ header button {
   text-align: left;
   margin: 10px 20px 0;
 }
+
 .hero-area .rick {
   color: #888;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: smaller;
 }
+
 .cambridge {
   width: 60vh;
   margin: 0 auto;
   text-align: left;
 }
+
 .author {
   text-decoration: none;
   font-size: 1rem;
   font-weight: 700;
   color: black;
 }
+
 .free-articles {
   width: 40%;
   text-align: center;
   margin: 10px auto;
 }
+
 .free {
   margin: 0;
 }
@@ -158,6 +181,7 @@ header button {
   margin: 0 auto;
   width: 20%;
 }
+
 p {
   margin: 15px 0;
 }
@@ -166,6 +190,7 @@ p {
   text-decoration: none;
   color: #326891;
 }
+
 .p-anchor {
   color: #326891;
 }
@@ -173,6 +198,7 @@ p {
 .p-anchor:hover {
   text-decoration: none;
 }
+
 .editors-picks {
   width: 300px;
   position: absolute;
@@ -195,6 +221,7 @@ p {
   gap: 10px;
   margin-bottom: 15px;
 }
+
 .the-theory-of-inflation {
   /* background-color: red; */
   position: relative;
@@ -210,6 +237,7 @@ p {
   justify-content: space-around;
   width: 100%;
   height: 90%;
+
   /* background-color: red; */
 }
 
@@ -218,6 +246,7 @@ p {
   justify-content: space-around;
   width: 100%;
   height: 47%;
+
   /* background-color: green; */
 }
 
@@ -226,13 +255,11 @@ p {
   flex-direction: column;
   height: 100%;
   width: 24%;
-  /* background-color: blueviolet; */
 }
 
 .top-image {
   height: 50%;
   width: 100%;
-  /* background-color: teal; */
 }
 
 .bottom-text {
@@ -240,7 +267,6 @@ p {
   width: 100%;
   font-size: 12px;
   padding-top: 20px;
-  /* background-color: seagreen; */
   text-align: justify;
 }
 
@@ -248,9 +274,11 @@ p {
   width: 100%;
   height: 100%;
 }
+
 .the-theory-of-inflation hr {
-  margin-left: 0px;
+  margin-left: 0;
 }
+
 .article-section {
   margin-bottom: 100px;
 }
@@ -271,34 +299,15 @@ iframe {
   margin: 0 auto;
 }
 
-.youtube-video .smaller,
-.smaller {
+.youtube-video .smaller {
   font-size: smaller;
 }
-.cooking {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-}
 
-iframe {
-  width: 100%;
-  height: 300px;
-}
-
-.youtube-video {
-  margin: 0 auto;
-}
-
-.youtube-video .smaller,
-.smaller {
-  font-size: smaller;
-}
 .spiral {
   width: 100%;
   height: 300px;
 }
+
 .comments {
   padding: 10px 40px;
   border-radius: 5px;
@@ -306,6 +315,12 @@ iframe {
   background-color: #326891;
   color: white;
   font-weight: 650;
+}
+
+.most-popular ul li {
+  font-size: x-large;
+  border-top: 1px solid #acaaaa;
+  padding: 15px 0;
 }
 
 .comments-container .icons li {
@@ -328,6 +343,7 @@ iframe {
   display: flex;
   align-items: center;
 }
+
 .space-and-astro {
   width: 75%;
   padding: 5%;
@@ -350,20 +366,13 @@ iframe {
   cursor: pointer;
 }
 
-
-.most-popular ul li {
-  
-  font-size: x-large;
-  border-top: 1px solid #acaaaa;
-  padding: 15px 0;
-}
-
 .tick-line {
   border: 1px solid black;
 }
+
 .footer-area {
   padding: 0 5%;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .footer-area .content {
