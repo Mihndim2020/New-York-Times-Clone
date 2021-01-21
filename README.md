@@ -15,9 +15,9 @@ Additional description about the project and its features.
 # screen shot here
 ![projectScreenshot1](images/screenshot1.png)
 ![projectScreenshot2](images/screenshot2.png)
-![projectScreenshot3](images/screenshot3.png)
-![projectScreenshot4](images/screenshot4.png)
-![projectScreenshot5](images/screenshot5.png)
+![projectScreenshot3](images/screenshoot3.png)
+![projectScreenshot4](images/screenshoot4.png)
+![projectScreenshot5](images/screenshoot5.png)
 ![projectScreenshot6](images/screenshot6.png
 
 
