@@ -332,10 +332,35 @@
         </div>
      </article>
      </article>
+     <div class="feedback-form">
 
-     <form action="">
-         
-     </form>
+        <form action="" method="POST">
+           <legend>Give us your feedback </legend> 
+           <ul>
+               <li><label for="username">Username:</label>
+                <input type="text" id = "username" name = "username" required placeholder="Enter your name"></li>
+               <li><label for="email">Email:</label>
+                <input type="email" id = "email" name = "email" required placeholder="Enter your email address"></li>
+               <li><textarea name="comment" id="comment" cols="30" rows="10" placeholder="Drop your comments here"></textarea>
+               </li>
+               <li>What is your overall opinion about this article?</li>
+               <li>
+                <input type="radio" id = "positive" name = "opinion"></li>
+                <label for="positive">Positive</label>                
+                <li>
+                    <input type="radio" id ="negative" name ="opinion"></li>
+                    <label for="negative">Negative</label>                
+                <li>
+                    <input type="radio" id ="neutral" name = "opinion">
+                    <label for="neutral">Neutral</label>                    
+                </li>                
+                <li>
+                    <input type="checkbox" id ="subscribe"></li>
+                    <label for="subscribe">I want to subscribe to the Newsletter</label>                
+           </ul>           
+        </form>
+     </div>
+
      <section class="space-and-astro-main">
       <div class="space-and-astro">
       <div class="more">
